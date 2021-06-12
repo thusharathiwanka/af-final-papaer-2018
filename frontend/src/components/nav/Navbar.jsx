@@ -6,7 +6,7 @@ const Navbar = () => {
 		<nav className="navbar navbar-expand-lg navbar-dark bg-dark py-3">
 			<div className="container-lg">
 				<Link to="/" className="navbar-brand">
-					NAME &copy;
+					SLIIT &copy;
 				</Link>
 				<button
 					className="navbar-toggler"
@@ -23,15 +23,15 @@ const Navbar = () => {
 					<ul className="navbar-nav ms-auto">
 						<li className="nav-item">
 							<Link to="/" className="nav-link" aria-current="page">
-								Home
+								Courses
 							</Link>
 						</li>
 						<li className="nav-item">
 							<Link
-								to=""
+								to="/courses/create"
 								className="nav-link btn btn-outline-primary ms-4 px-3"
 							>
-								Link
+								Add Course
 							</Link>
 						</li>
 					</ul>
